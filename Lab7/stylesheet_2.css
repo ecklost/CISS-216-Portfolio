@@ -1,0 +1,95 @@
+header {
+	width: 900px;
+	text-align: justify;
+    text-justify: inter-word;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 10px 475px auto;
+	border:2px solid white;
+	background:#ede1d1;
+	padding: 15px;
+}
+
+nav {
+	font-family: Arial, Helvetica, sans-serif;
+	width:203px;
+	position:fixed;
+	top:10px;
+	left:120px;
+	border:1px solid black;
+	background: #EEEEEE;
+	color:black;
+	margin: 20px 20px 20px 20px
+}
+
+nav li {
+	display:inline-block;
+}
+
+nav a {
+		display:inline-block;
+		background:#ede1d1;
+		font-weight:bold;
+		width:120px;
+		border:1px solid black;
+		text-decoration:none;
+		text-align:center;		
+		color: #67818a;
+		font-variant: small-caps;
+}
+
+nav a:hover {
+		background:black;
+		color:#dddddd;
+		font-style: italic;
+}
+
+nav a:focus {
+		background:#67818a;
+		color:#ede1d1;
+}
+
+section {
+	width: 1000px;
+	text-align: justify;
+    text-justify: inter-word;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	margin: 10px 425px auto;
+	border:2px solid black;
+	background:#ede1d1;
+	padding: 15px;
+	text-indent: 2em;
+}
+
+footer {
+	width: 1000px;
+	text-align: justify;
+    text-justify: inter-word;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 10px 425px auto;
+	border:2px solid black;
+	background:#ede1d1;
+	padding: 15px;
+}
+
+h1 {
+	text-align: center;
+	color: #67818a;
+	font-variant: small-caps;
+	font-family: Verdana, Geneva, sans-serif;
+	letter-spacing: 7px;
+}
+
+h2, h3 {
+	text-align: center;
+	color: #67818a;
+	font-variant: small-caps;
+	font-family: Verdana, Geneva, sans-serif;
+	letter-spacing: 3px;
+}
+
+body {
+	background-image: url("prototype_screen_2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}

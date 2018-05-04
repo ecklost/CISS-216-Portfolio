@@ -1,0 +1,44 @@
+* {
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+
+body {
+	background-image: url("prototype_screen_2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	background: white;
+	margin: 10px auto;
+	width: 560px;
+}
+
+section {
+	background: white;
+	margin: 10px auto;
+	width: 560px;
+	font-size: 20px;
+}
+
+h1, h2 {
+	background: white;
+	font-size: 32px;
+}
+
+nav {
+	background: white;
+	margin: 10px auto;
+	width: 560px;
+}
+
+img {
+	height: 60%;
+	width: 60%;
+}
+
+footer {
+	background: white;
+	margin: 10px auto;
+	width: 560px;
+}

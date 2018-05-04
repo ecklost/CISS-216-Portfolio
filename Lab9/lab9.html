@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title> Pizza Form - Lab 9 </title>
+		
+		<link type="text/css" rel="Stylesheet" href="base.css" />
+
+		<link type="text/css" rel="Stylesheet" href="mobile.css" />
+		
+		<link type="text/css" rel="Stylesheet" href="base.css" 
+			media="only screen and (min-device-width:601px)"/>
+	</head>
+	<body>
+		<header> <h1> <center> Pizza Form - Lab 9 </center> </h1> </header>
+		<div class="row">
+			<div class="col-nb">
+			</div>
+			<section class="form">
+				<form 
+					method="get"
+					action="http://cissweb.lorainccc.edu/useruploads/MZellers/ciss216lab.php">
+					<label for="frmName"> Name: </label>
+					<input type="text" name="frmName" id="frmName"/> <br> <br>
+					
+					<label for="frmPhone"> Phone: </label>
+					<input type="text" name="frmPhone" id="frmPhone"/> <br> <br>
+					
+					Size: <br>
+					<input type="radio" name="frmSize" value="S" id="frmSize" checked> Small <br>
+					<input type="radio" name="frmSize" value="M" id="frmSize"> Medium <br>
+					<input type="radio" name="frmSize" value="L" id="frmSize"> Large <br> <br>
+					
+					Type of Crust: <br>
+					<input type="radio" name="frmCrust" value="1" id="frmCrust" checked> Thin <br>
+					<input type="radio" name="frmCrust" value="2" id="frmCrust"> Thick <br>
+					<input type="radio" name="frmCrust" value="3" id="frmCrust"> Stuffed <br> <br>
+					
+					Toppings: <br>
+					<input type="checkbox" name="frmPepperoni" value="Y" id="frmPepperoni"> Pepperoni <br>
+					<input type="checkbox" name="frmMushrooms" value="Y" id="frmMushrooms"> Mushrooms <br>
+					<input type="checkbox" name="frmCheese" value="Y" id="frmCheese"> Extra Cheese <br> <br>
+					
+					Delivery: <br>
+					<input type="checkbox" name="frmDelivery" value="Y" id="frmDelivery"> For Delivery? <br> <br>
+					
+					<label for="frmInstructions"> Instructions: </label>
+					<input type="text" name="frmInstructions" id="frmInstructions"/> <br> <br>
+					
+					<input type="submit" name="btnSubmit" value="Order"/>
+				</form>
+				<br> <a href="../portfolio.html"> Back to portfolio main page </a>
+			</section>
+		</div>
+	</body>
+</html>

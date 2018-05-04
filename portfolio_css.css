@@ -1,0 +1,118 @@
+#container {
+	display: grid;
+	grid-gap: 10px;
+	min-width:400px;
+	grid-columns: 400px 400px;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 32px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+}
+
+body {
+	background-image: url("bon_iver.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	background:white;
+	opacity:.95;
+	padding:10px;
+	border:solid rgb(150, 150, 150) 5px;
+	grid-column-start:1;
+	grid-column-end:3;
+}  
+
+section {
+	text-align: justify;
+    text-justify: inter-word;
+	background:white;
+	opacity:.95;
+	padding:10px;
+	border:solid rgb(150, 150, 150) 5px;
+	min-width:150px;
+	margin-left: 250px;
+}
+
+article {
+	text-align: justify;
+    text-justify: inter-word;
+	background:white;
+	opacity:.95;
+	padding:10px;
+	border:solid rgb(150, 150, 150) 5px;
+	min-width:150px;
+	margin-right: 250px;
+}
+
+nav  {
+	background:white;
+	opacity:.95;
+	border:solid rgb(150, 150, 150) 5px;
+	grid-column-start:1;
+	grid-column-end:3;
+	margin-left: 650px;
+	margin-right: 668px;
+}
+
+nav p {
+	padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+	width:32.9%;
+    float: left;
+	border-right: 1px solid #BBBBBB;
+	border-top: 1px solid #BBBBBB;
+	border-left: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: 1px solid #BBBBBB;
+}
+
+li a:hover {
+    background-color: #DDDDDD;
+}
+
+a {
+	font-size: 24px;
+}
+		
+footer {
+	background:white;
+	opacity:.95;
+	padding:10px;
+	border:solid rgb(150, 150, 150) 5px;
+	grid-column-start:1;
+	grid-column-end:3;
+}
